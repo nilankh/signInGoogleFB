@@ -28,7 +28,7 @@ export class FacebookStrategy extends PassportStrategy(Strategy, 'facebook') {
     };
     const payload = {
       user,
-      
+      accessToken
     };
 
     done(null, payload);
